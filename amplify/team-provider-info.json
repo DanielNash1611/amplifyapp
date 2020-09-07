@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-musicofdanielnash-dev-05443-authRole",
+      "UnauthRoleArn": "arn:aws:iam::603242799935:role/amplify-musicofdanielnash-dev-05443-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::603242799935:role/amplify-musicofdanielnash-dev-05443-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-musicofdanielnash-dev-05443-deployment",
+      "UnauthRoleName": "amplify-musicofdanielnash-dev-05443-unauthRole",
+      "StackName": "amplify-musicofdanielnash-dev-05443",
+      "StackId": "arn:aws:cloudformation:us-west-2:603242799935:stack/amplify-musicofdanielnash-dev-05443/35ea8490-f016-11ea-bbf1-0219e54cc863",
+      "AmplifyAppId": "d2c3rtqoh61erk"
+    },
+    "categories": {
+      "auth": {
+        "musicofdanielnash89a96ecb": {}
+      }
+    }
+  }
+}

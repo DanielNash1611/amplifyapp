@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaFunction": "musicofdanielnashc13c3e01",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/items"
+        }
+    ],
+    "resourceName": "MusicOfDanielNashAPI",
+    "apiName": "MusicOfDanielNashAPI",
+    "functionArns": [
+        {
+            "lambdaFunction": "musicofdanielnashc13c3e01"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-musicofdanielnash-dev-05443-authRole",
+        "unAuthRoleName": "amplify-musicofdanielnash-dev-05443-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "musicofdanielnashc13c3e01",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

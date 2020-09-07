@@ -1,0 +1,21 @@
+{
+    "appName": "musicofdanielnash",
+    "roleName": "pinpointLambdaRole7998486e",
+    "cloudformationPolicyName": "cloudformationPolicy7998486e",
+    "cloudWatchPolicyName": "cloudWatchPolicy7998486e",
+    "pinpointPolicyName": "pinpointPolicy7998486e",
+    "authPolicyName": "pinpoint_amplify_7998486e",
+    "unauthPolicyName": "pinpoint_amplify_7998486e",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}
