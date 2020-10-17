@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
+import Index from './pages/index'
 import { API, Storage } from 'aws-amplify';
 import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
 import { listNotes } from './graphql/queries';
@@ -11,6 +12,7 @@ function App() {
   return (
     <div className="App">
       <h1>My Awesome Website</h1>
+      <Index/>
     </div>
   );
 }
